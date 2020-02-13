@@ -13,3 +13,4 @@ class TaskView(viewsets.ModelViewSet):
 class TagView(viewsets.ModelViewSet):
     queryset = Tag.objects.all()    
     serializer_class = TagSerializer
+

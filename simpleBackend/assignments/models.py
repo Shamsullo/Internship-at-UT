@@ -15,7 +15,7 @@ class Task(models.Model):
     name = models.CharField(max_length = 120, null = False, blank=False)
     description = models.TextField(null = False, blank=False)
     date_of_creation = models.DateField(editable = True, blank = False)
-    tags = models.ManyToManyField(Tag, related_name='tasks')
+    tags = models.ManyToManyField(Tag, related_name='tasks', blank=True)
 
     def __str__(self):
         return self.name

@@ -20,13 +20,13 @@ from assignments import views
 
 from django.urls import path, include
 
-router = routers.DefaultRouter()
+# router = routers.DefaultRouter()
 
-router.register(r'tags', views.TagView)
-router.register(r'tasks', views.TaskView)
+# router.register(r'tags', views.TagView)
+# router.register(r'tasks', views.TaskView)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(router.urls)),
+    path('', include('assignments.urls')),
     # path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
