@@ -1,6 +1,8 @@
 # Internship-at-UT
 This repository is created for sharing my code with my Mentors during my Internship at Unique Technologies. Thus, I will be adding here some of the tasks.
 
+### Find one of API that i have build in UT for demo:
+    http://e-commerce-shams.herokuapp.com/items/
 
 ### Steps to run the tasks
 1. create a vitual environment, probably by:
